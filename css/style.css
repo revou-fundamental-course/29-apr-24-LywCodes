@@ -1,0 +1,228 @@
+h1 {
+    font-size: 38px;
+}
+
+body {
+    font-family: Poppins, sans-serif;
+}
+
+/* header di tengah dengan lebar 1200px */
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: center;
+    max-width: 1200px;
+    margin-left: auto; 
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid darkgray;
+}
+/* Kontainer untuk logo */
+.logo-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+/* gambar logo */
+.logo {
+    /* background-image: url(/assets/LC-CODES.png); */
+    background-size: contain;
+    height: 32px;
+    width: 500px;
+    /* border: 1px solid black; */
+    background-repeat: no-repeat;
+}
+/*  */
+.menu-navigation {
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+}
+
+.menu-navigation a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 500;
+}
+.menu-navigation a:hover{
+    background-color: rgb(216, 130, 80);
+}
+
+.main {
+    max-width: 1200px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    column-gap: 20px;
+    padding-top: 48px;
+}
+/* untuk membuat teks rata tengah */
+.text-center {
+    text-align: center;
+    width: 100%;
+}
+
+.main-item {
+     /* border: 1px solid; */
+    flex: 1;
+    min-height: 300px;
+    height: 100%;
+    
+}
+
+.col-right {
+    background-color: #EDF0F4;
+    padding: 24px;
+    border-radius: 4px;
+    margin-top: 138px;
+    
+}
+
+.col-left {
+    flex: 30%;
+    padding: 24px;
+
+}
+
+.item-form>input {
+    height: 20px;
+    border-radius: 5px;
+    /* margin-left: 10px; */
+    border: 1px solid darkgrey;
+    padding: 20px;
+}
+
+.item-form>select {
+    border-radius: 5px;
+    /* margin-left: 10px; */
+    border: 1px solid darkgrey;
+    padding: 10px;
+    color: black;
+}
+
+.item-form>button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.item-form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+form label {
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 5px;
+}
+
+.mySlides img {
+    width: 100%;
+    height: 532px;
+    border-radius: 2px;
+}
+
+.testimonial {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    max-width: 350px;
+    margin: 20px auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    border-radius: 8px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 100px;
+}
+
+.testimonial-image svg {
+    width: 80px;
+    height: 80px;
+    fill: #555;
+}
+
+.testimonial-content {
+    flex-grow: 1;
+}
+
+.testimonial-author {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.testimonial-info {
+    font-size: 14px;
+    color: #666;
+}
+
+.paket {
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    padding-bottom: 48px;
+}
+
+
+.container {
+    max-width: 1200px;
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.section {
+    flex-basis: calc(33.333% - 10px); /* 3 columns with some spacing */
+}
+
+.infobox {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto 10px;
+    border-radius: 50%;
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon svg {
+    width: 30px; /* Adjust icon size */
+    height: 30px; /* Adjust icon size */
+    
+}
+
+.cta-bottom {
+    width: 30%;
+    align-self: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: black;
+}
